@@ -3,8 +3,9 @@ var rsult=document.getElementById('result')
 var n=nbr1.value
 var tm=new Date()
 var y=tm.getFullYear
-var calc=tm-y
+var value=y.value
+var calc1=value-nb1
 function clicar(){
-    rsult.innerHTML=`${tm.getFullYear()}`
+    rsult.innerHTML=`${calc1()}`
 
 }
